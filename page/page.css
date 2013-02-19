@@ -1,0 +1,10 @@
+body {
+  padding: 200px 100px;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-align-content: space-around;
+  -webkit-justify-content: space-around;
+}
+body #out {
+  width: 300px;
+}

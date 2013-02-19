@@ -1,0 +1,50 @@
+.columnMenu {
+  width: 300px;
+  background: #f2d9f2;
+  padding: 0px;
+  border-radius: 2px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "URW Gothic Book";
+  cursor: pointer;
+}
+.columnMenu * {
+  box-sizing: border-box;
+}
+.columnMenu .title {
+  position: relative;
+  background: #f5bea3;
+  box-shadow: 0px 1px 8px #eb4747;
+  padding: 8px;
+}
+.columnMenu .title:hover {
+  box-shadow: 0px 1px 10px #e61919;
+}
+.columnMenu .title img {
+  float: right;
+  width: 26px;
+  title-height: 26px;
+}
+.columnMenu .title .choose {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: #d8f0a8;
+  width: 100%;
+  box-shadow: 0px 1px 10px #e61919;
+}
+.columnMenu .title .choose .key {
+  padding: 8px;
+  background: #c4e87d;
+  box-shadow: 0px 1px 0px #ccc;
+}
+.columnMenu .title .choose .key:hover {
+  background: #9dd926;
+}
+.columnMenu .list .elem {
+  padding: 8px;
+  box-shadow: 0px 1px 0px #ccc;
+}
+.columnMenu .list .elem:hover {
+  background: #9dd926;
+}

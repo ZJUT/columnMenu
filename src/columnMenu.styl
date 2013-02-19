@@ -1,0 +1,54 @@
+
+.columnMenu
+  title-height = 26px
+  width 300px
+  background hsl(300,50,90)
+  padding 0px
+  border-radius 2px
+  line-height title-height
+  font-size 16px
+  font-family "URW Gothic Book"
+  cursor pointer
+
+  *
+    box-sizing border-box
+
+  .title
+    position relative
+    background hsl(20,80,80)
+    box-shadow 0px 1px 8px hsl(0,80,60)
+    padding 8px
+
+    &:hover
+      box-shadow 0px 1px 10px hsl(0,80,50)
+
+    img
+      float right
+      width title-height
+      title-height title-height
+
+    .choose
+      position absolute
+      left 0px
+      top 0px 
+      // title-height + 16px
+      background hsl(80,70,80)
+      width 100%
+      box-shadow 0px 1px 10px hsl(0,80,50)
+
+      .key
+        padding 8px
+        background hsl(80,70,70)
+        box-shadow 0px 1px 0px hsl(0,0,80)
+
+        &:hover
+          background hsl(80,70,50)
+
+  .list
+
+    .elem
+      padding 8px
+      box-shadow 0px 1px 0px hsl(0,0,80)
+
+      &:hover
+        background hsl(80,70,50)
